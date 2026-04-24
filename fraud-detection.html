@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SentinAI | Fraud Detection</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .active-page {
+            background-color: #4cd137;
+            color: #0b1f1a !important;
+            border-radius: 6px;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="logo-area">
+            <img src="image.jpg.jpeg" alt="SentinAI logo" class="logo" style="border: 2px solid #ffffff;">
+        </div>
+
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="login.html">Log In</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="machine-learning.html">Machine Learning</a></li>
+                <li><a href="fraud-detection.html" class="active-page">Fraud Detection</a></li>
+                <li><a href="how-it-works.html">How It Works</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="fraud-page">
+        <section class="fraud-overlay">
+
+            <div class="fraud-content-box">
+                <h1>FRAUD DETECTION IN FINTECH</h1>
+
+                <p>
+                    Financial fraud is a major challenge in today’s digital economy. With the
+                    increasing use of online banking and digital payments, fraudsters are
+                    constantly developing new methods to exploit system weaknesses.
+                </p>
+
+                <h2>Common Types of Financial Fraud</h2>
+                <ul class="fraud-list">
+                    <li>Credit card fraud</li>
+                    <li>Identity theft</li>
+                    <li>Unauthorized transactions</li>
+                    <li>Account takeover attacks</li>
+                </ul>
+
+                <p>
+                    Traditional fraud detection systems rely on predefined rules, which are often
+                    unable to detect new or complex fraud patterns. This can lead to missed
+                    threats and increased financial risk for businesses and customers.
+                </p>
+
+                <p>
+                    SentinAI uses machine learning to analyse large volumes of transaction data in
+                    real time. By identifying unusual behaviour, location changes, and suspicious
+                    spending patterns, the system can detect possible fraud instantly and take
+                    action before a payment is approved.
+                </p>
+
+                <button class="info-button" onclick="showFraudMessage()">Find Out More</button>
+                <p id="fraudMessage" class="info-message"></p>
+            </div>
+
+            <aside class="fraud-image-panel">
+                <img src="fraud page.png" alt="Financial fraud detection illustration" class="side-image">
+                <img src="fraud page 2.png" alt="Digital fraud security interface" class="side-image">
+            </aside>
+
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-left">
+            <div class="social-icons">
+                <a href="#" aria-label="Facebook"><img src="Facebook_Logo_Primary.png" alt="Facebook icon"></a>
+                <a href="#" aria-label="LinkedIn"><img src="linkedin.png" alt="LinkedIn icon"></a>
+            </div>
+            <div class="address">
+                <p>75 Hawthorne St Suite 560</p>
+                <p>San Francisco, CA 94105</p>
+            </div>
+        </div>
+
+        <div class="footer-center">
+            <h2>Interested in being with us?</h2>
+        </div>
+
+        <div class="footer-right">
+            <p>Email: info@sentinai.com</p>
+            <p>Phone: +44 07341700866</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

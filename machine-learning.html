@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SentinAI | Machine Learning</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .active-page {
+            background-color: #4cd137;
+            color: #0b1f1a !important;
+            border-radius: 6px;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="logo-area">
+            <img src="image.jpg.jpeg" alt="SentinAI logo" class="logo" style="border: 2px solid #ffffff;">
+        </div>
+
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="login.html">Log In</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="machine-learning.html" class="active-page">Machine Learning</a></li>
+                <li><a href="fraud-detection.html">Fraud Detection</a></li>
+                <li><a href="how-it-works.html">How It Works</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="machine-page">
+        <section class="machine-overlay">
+
+            <div class="machine-content-box">
+                <h1>MACHINE LEARNING</h1>
+
+                <p>
+                    Machine learning is a branch of artificial intelligence that allows systems
+                    to learn from data and improve their performance over time without being
+                    directly programmed for every situation.
+                </p>
+
+                <p>
+                    In SentinAI, machine learning models are used to analyse transaction data
+                    and identify patterns of normal and abnormal behaviour. These models
+                    continuously learn from new information, helping financial institutions
+                    respond quickly to suspicious activity.
+                </p>
+
+                <p>
+                    Unlike older fraud systems that depend on fixed rules, machine learning can
+                    detect complex behaviour and hidden patterns. This makes it more effective
+                    at identifying modern payment fraud.
+                </p>
+
+                <h2>Types of Machine Learning Used</h2>
+
+                <ul class="nested-list">
+                    <li>
+                        Supervised Learning
+                        <ul>
+                            <li>Learns from labelled data</li>
+                            <li>Used to recognise known fraud patterns</li>
+                        </ul>
+                    </li>
+                    <li>
+                        Unsupervised Learning
+                        <ul>
+                            <li>Detects anomalies and unusual behaviour</li>
+                            <li>Useful for spotting new or unknown threats</li>
+                        </ul>
+                    </li>
+                    <li>
+                        Continuous Model Improvement
+                        <ul>
+                            <li>Updates performance using new transaction data</li>
+                            <li>Improves fraud detection accuracy over time</li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <button class="info-button" onclick="showMLMessage()">Learn More</button>
+                <p id="mlMessage" class="info-message"></p>
+            </div>
+
+            <aside class="machine-image-panel">
+                <img src="machine learning page.png" alt="Machine learning concept illustration" class="side-image">
+                <img src="machine learning page 2.png" alt="Digital machine learning technology graphic" class="side-image">
+            </aside>
+
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-left">
+            <div class="social-icons">
+                <a href="#" aria-label="Facebook"><img src="Facebook_Logo_Primary.png" alt="Facebook icon"></a>
+                <a href="#" aria-label="LinkedIn"><img src="linkedin.png" alt="LinkedIn icon"></a>
+            </div>
+            <div class="address">
+                <p>75 Hawthorne St Suite 560</p>
+                <p>San Francisco, CA 94105</p>
+            </div>
+        </div>
+
+        <div class="footer-center">
+            <h2>Interested in being with us?</h2>
+        </div>
+
+        <div class="footer-right">
+            <p>Email: info@sentinai.com</p>
+            <p>Phone: +44 07341700866</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

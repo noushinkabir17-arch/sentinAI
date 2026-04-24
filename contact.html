@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SentinAI | Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .active-page {
+            background-color: #4cd137;
+            color: #0b1f1a !important;
+            border-radius: 6px;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="logo-area">
+            <img src="image.jpg.jpeg" alt="SentinAI logo" class="logo" style="border: 2px solid #ffffff;">
+        </div>
+
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="login.html">Log In</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="machine-learning.html">Machine Learning</a></li>
+                <li><a href="fraud-detection.html">Fraud Detection</a></li>
+                <li><a href="how-it-works.html">How It Works</a></li>
+                <li><a href="contact.html" class="active-page">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contact-page">
+        <section class="contact-overlay">
+
+            <div class="contact-form-box">
+                <h1>CONTACT US</h1>
+                <p class="contact-intro">Feel free to ask us anything and everything.</p>
+
+                <p>
+                    Get in touch with us to learn more about SentinAI or request a demo.
+                </p>
+
+                <div class="contact-details">
+                    <p>Email: info@sentinai.com</p>
+                    <p>Phone: +44 07341700866</p>
+                </div>
+
+                <p>
+                    You can also send us a message using the contact form below.
+                </p>
+
+                <form id="contactForm" class="contact-form">
+                    <div class="contact-row">
+                        <label for="fullName">Name:</label>
+                        <input type="text" id="fullName" name="fullName">
+                    </div>
+
+                    <div class="contact-row">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+
+                    <div class="contact-row">
+                        <label for="phone">Phone:</label>
+                        <input type="text" id="phone" name="phone">
+                    </div>
+
+                    <div class="contact-row">
+                        <label for="subject">Subject:</label>
+                        <input type="text" id="subject" name="subject">
+                    </div>
+
+                    <div class="contact-row contact-row-textarea">
+                        <label for="message">How can we help?</label>
+                        <textarea id="message" name="message" rows="5"></textarea>
+                    </div>
+
+                    <div class="submit-area">
+                        <button type="submit" class="submit-button">Submit</button>
+                    </div>
+
+                    <p id="contactMessage" class="contact-message"></p>
+                </form>
+            </div>
+
+            <div class="contact-side-panel">
+                <div class="support-box">
+                    <h2>Technical Support</h2>
+                    <p>We are here to help with any questions you may have.</p>
+                    <button class="support-button" onclick="showSupportMessage()">Contact Support</button>
+                    <p id="supportMessage" class="info-message"></p>
+                </div>
+
+                <div class="chat-box">
+                    <h2>Chat with us</h2>
+                    <p>1. Chat with our support team to get a quick response.</p>
+                    <p>2. Click below to start a conversation:</p>
+                    <button class="chat-button" onclick="startChat()">Start a conversation</button>
+                    <p id="chatMessage" class="info-message"></p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-left">
+            <div class="social-icons">
+                <a href="#" aria-label="Facebook"><img src="Facebook_Logo_Primary.png" alt="Facebook icon"></a>
+                <a href="#" aria-label="LinkedIn"><img src="linkedin.png" alt="LinkedIn icon"></a>
+            </div>
+            <div class="address">
+                <p>75 Hawthorne St Suite 560</p>
+                <p>San Francisco, CA 94105</p>
+            </div>
+        </div>
+
+        <div class="footer-center">
+            <h2>Interested in being with us?</h2>
+        </div>
+
+        <div class="footer-right">
+            <p>Email: info@sentinai.com</p>
+            <p>Phone: +44 07341700866</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

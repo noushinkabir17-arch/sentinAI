@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SentinAI | How It Works</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .active-page {
+            background-color: #4cd137;
+            color: #0b1f1a !important;
+            border-radius: 6px;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="logo-area">
+            <img src="image.jpg.jpeg" alt="SentinAI logo" class="logo" style="border: 2px solid #ffffff;">
+        </div>
+
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="login.html">Log In</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="machine-learning.html">Machine Learning</a></li>
+                <li><a href="fraud-detection.html">Fraud Detection</a></li>
+                <li><a href="how-it-works.html" class="active-page">How It Works</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="works-page">
+        <section class="works-overlay">
+
+            <div class="works-content-box">
+                <h1>HOW SENTINAI WORKS</h1>
+
+                <p>
+                    SentinAI follows a simple and effective process to detect fraud in financial
+                    systems. First, transaction data is collected and analysed. Then, machine
+                    learning models process the data and identify unusual patterns. If suspicious
+                    activity is detected, the system generates an alert or blocks the transaction
+                    before it is completed.
+                </p>
+
+                <h2>Fraud Detection Process</h2>
+                <p class="process-line">
+                    Transaction Data → Machine Learning Model → Fraud Detection → Alert
+                </p>
+
+                <h2>Step-by-Step Overview</h2>
+                <ol class="works-list">
+                    <li>Transaction details are received from banking or payment systems.</li>
+                    <li>The platform checks customer behaviour and spending patterns.</li>
+                    <li>Machine learning models analyse the data for unusual activity.</li>
+                    <li>The system flags, alerts, or blocks suspicious transactions in real time.</li>
+                </ol>
+
+                <button class="info-button" onclick="showWorksMessage()">See Summary</button>
+                <p id="worksMessage" class="info-message"></p>
+            </div>
+
+            <aside class="works-image-panel">
+                <img src="advantage page.png" alt="Advantages of machine learning in fraud detection" class="side-image">
+                <img src="advantage page 2.png" alt="Fraud detection process using machine learning" class="side-image">
+            </aside>
+
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-left">
+            <div class="social-icons">
+                <a href="#" aria-label="Facebook"><img src="Facebook_Logo_Primary.png" alt="Facebook icon"></a>
+                <a href="#" aria-label="LinkedIn"><img src="linkedin.png" alt="LinkedIn icon"></a>
+            </div>
+            <div class="address">
+                <p>75 Hawthorne St Suite 560</p>
+                <p>San Francisco, CA 94105</p>
+            </div>
+        </div>
+
+        <div class="footer-center">
+            <h2>Interested in being with us?</h2>
+        </div>
+
+        <div class="footer-right">
+            <p>Email: info@sentinai.com</p>
+            <p>Phone: +44 07341700866</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
