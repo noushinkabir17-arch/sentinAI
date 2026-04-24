@@ -1,0 +1,2 @@
+# sentinAI
+cool AI
